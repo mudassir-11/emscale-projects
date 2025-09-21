@@ -1,6 +1,6 @@
 !pip install sentence-transformers faiss-cpu groq pypdf
 import os
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 from pypdf import PdfReader
 
 pdf_path = "5InchHIEGHT_Gain.pdf"   # your uploaded file
